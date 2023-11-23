@@ -82,7 +82,9 @@
           <div class="embla__slide">
             <!-- <div class="embla__slide__number"><span>1</span></div> -->
             <div class="flex flex-row">
-
+              <div class="flex-1 flex-col">
+                <h1> </h1>
+              </div>
             </div>
           </div>
           <div class="embla__slide">
