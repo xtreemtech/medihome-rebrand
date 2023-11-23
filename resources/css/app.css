@@ -18,3 +18,18 @@
 }
 
 /* new stuff */
+
+.banner_one{
+    background-image: url('../../public/images/banner-4.jpg');
+    height: 500px;
+    width: auto;
+    background-size: cover;
+}
+
+
+.banner_two{
+    background-image: url('../../public/images/banner-5.jpg');
+    height: 500px;
+    width: auto;
+    background-size: cover;
+}
