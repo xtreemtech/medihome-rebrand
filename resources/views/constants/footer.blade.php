@@ -1,6 +1,6 @@
   <!-- footer starts here  -->
   <div class="bg-blue-50 w-full min-w-full h-2/5 p-6">
-    <div class="grid grid-cols-4">
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1">
       <div class="flex flex-col ">
         <!-- <img src="{{ asset('../../../../images/logo/nma.png') }}" class="w-16 h-16"/> -->
 
