@@ -1,6 +1,6 @@
 <x-landing-layout>
 
-    <x-shortbanner title="About">
+    <x-shortbanner title="Contact">
         
     </x-shortbanner>
 

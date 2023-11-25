@@ -17,6 +17,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [LandingController::class, 'index'])->name('landing');
 
+Route::get('/about', [LandingController::class, 'about'])->name('about');
+
+Route::get('/services', [LandingController::class, 'services'])->name('services');
+
+Route::get('/contact', [LandingController::class, 'contact'])->name('contact');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
