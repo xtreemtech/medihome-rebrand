@@ -19,17 +19,21 @@
     </div>
 
     <div>
-        <div class="grid grid-flow-row grid-cols-1 justify-start my-6 gap-3">
-            <h3>Answer this: </h3>
-            <x-text-input class="w-1/2" name="math_one" type="text" required="true"  value="{{rand(1,10)}}" disabled="true"></x-text-input>
-            <x-text-input class="w-1/2" name="math_two" type="text"  required="true" value="{{rand(1,10)}}" disabled="true"></x-text-input>
+        <div class="grid grid-flow-row grid-cols-2 items-start my-6 gap-0">
+            <h3 class="text-xl flex justify-start m-1">Answer this: </h3>
+            <div class="grid grid-flow-row grid-cols-3">
+                <x-text-input class="w-full" name="math_one" type="text" required="true" value="{{rand(1,10)}}" disabled="true"></x-text-input>
+                <span class="text-3xl m-auto"> + </span>
+                <x-text-input class="w-full" name="math_two" type="text" required="true" value="{{rand(1,10)}}" disabled="true"></x-text-input>
+            </div>
         </div>
 
+
         <div class="grid grid-flow-row grid-cols-1 justify-start my-6">
-        <x-text-input class="w-full" name="placeholder" placeholder="Enter your Solution" required></x-text-input>
+            <x-text-input class="w-full" name="placeholder" placeholder="Enter your Solution" required></x-text-input>
         </div>
     </div>
 
-    
+
     <button type="submit" class="mt-4 p-2 bg-blue-500 text-white rounded-md float-right">Submit</button>
 </form>
