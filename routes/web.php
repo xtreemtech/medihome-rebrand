@@ -17,6 +17,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [LandingController::class, 'index'])->name('landing');
 
+Route::get('/about', [LandingController::class, 'about'])->name('about');
+
+Route::get('/services', [LandingController::class, 'services'])->name('services');
+
+Route::get('/contact', [LandingController::class, 'contact'])->name('contact');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -26,5 +32,11 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
+Route::get('/users', function () {
+    return view('pages.users');
+});
+
 
 require __DIR__.'/auth.php';
