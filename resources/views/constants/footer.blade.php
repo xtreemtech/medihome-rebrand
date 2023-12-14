@@ -4,54 +4,54 @@
       <div class="flex flex-col ">
         <!-- <img src="{{ asset('../../../../images/logo/nma.png') }}" class="w-16 h-16"/> -->
 
-        <p class="text-blue-800 text-2xl my-3">For Enquiries... </p>
+        <p class="text-blue-800 text-lg my-3">For Enquiries... </p>
         <div class="flex flex-row justify-start">
           <img src="{{ asset('../../../../icons/call.svg') }}" class="w-10 h-auto" />
 
-          <p class="text-blue-800 text-xl my-3">+2349015222109</p>
+          <p class="text-blue-800 text-lg my-3">+2349015222109</p>
         </div>
         <div class="flex flex-row justify-start">
           <img src="{{ asset('../../../../icons/mail.svg') }}" class="w-10 h-auto" />
 
-          <p class="text-blue-800 text-xl my-3">info@medihomecare.com</p>
+          <p class="text-blue-800 text-lg my-3">info@medihomecare.com</p>
         </div>
       </div>
 
       <div class="flex flex-col">
 
-        <h3 class="text-blue-800 text-2xl my-3 font-bold">Support</h3>
+        <h3 class="text-blue-800 text-xl my-3 font-bold">Support</h3>
 
-        <p class="text-blue-800 text-xl my-3">Legal Policy</p>
+        <p class="text-blue-800 text-lg my-3">Legal Policy</p>
 
-        <p class="text-blue-800 text-xl my-3">FAQs</p>
-
-      </div>
-
-      <div class="flex flex-col justify-between">
-
-        <h3 class="text-blue-800 text-2xl my-3 font-bold">Pages</h3>
-
-        <p class="text-blue-800 text-xl my-3">Home</p>
-
-        <p class="text-blue-800 text-xl my-3">About Us</p>
-
-        <p class="text-blue-800 text-xl my-3">Pricing</p>
-
-        <p class="text-blue-800 text-xl my-3">Contact Us</p>
+        <p class="text-blue-800 text-lg my-3">FAQs</p>
 
       </div>
 
       <div class="flex flex-col justify-between">
 
-        <h3 class="text-blue-800 text-2xl my-3 font-bold">Resources</h3>
+        <h3 class="text-blue-800 text-xl my-3 font-bold">Pages</h3>
 
-        <p class="text-blue-800 text-xl my-3">Ask a Care Giver Online</p>
+        <p class="text-blue-800 text-lg my-3">Home</p>
 
-        <p class="text-blue-800 text-xl my-3">Chat with a Professional</p>
+        <p class="text-blue-800 text-lg my-3">About Us</p>
 
-        <p class="text-blue-800 text-xl my-3">Book Appointment</p>
+        <p class="text-blue-800 text-lg my-3">Pricing</p>
 
-        <p class="text-blue-800 text-xl my-3">Conselling</p>
+        <p class="text-blue-800 text-lg my-3">Contact Us</p>
+
+      </div>
+
+      <div class="flex flex-col justify-between">
+
+        <h3 class="text-blue-800 text-xl my-3 font-bold">Resources</h3>
+
+        <p class="text-blue-800 text-lg my-3">Ask a Care Giver Online</p>
+
+        <p class="text-blue-800 text-lg my-3">Chat with a Professional</p>
+
+        <p class="text-blue-800 text-lg my-3">Book Appointment</p>
+
+        <p class="text-blue-800 text-lg my-3">Conselling</p>
 
       </div>
     </div>
