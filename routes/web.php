@@ -23,6 +23,8 @@ Route::get('/services', [LandingController::class, 'services'])->name('services'
 
 Route::get('/contact', [LandingController::class, 'contact'])->name('contact');
 
+Route::get('/mtn', [LandingController::class, 'mtn'])->name('mtn');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

@@ -35,5 +35,5 @@
     </div>
 
 
-    <button type="submit" class="mt-4 p-2 bg-blue-500 text-white rounded-md float-right">Submit</button>
+    <button type="submit" class="mt-4 p-2 bg-sky-500 hover:bg-sky-900 transition duration-300 rounded-lg text-white float-right">Submit</button>
 </form>
