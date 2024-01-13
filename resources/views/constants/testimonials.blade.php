@@ -58,9 +58,11 @@
     </div>
 
     <div class="flex flex-row h-50 w-full justify-center mt-12">
-      <button class="hover:text-blue-800 text-1xl my-3 text-blue-800 py-2 text-center px-4 rounded-3xl border-2 border-blue-800 hover:bg-white">
+      <a href="{{route('testimonials')}}">
+        <button class="hover:text-blue-800 text-1xl my-3 text-blue-800 py-2 text-center px-4 rounded-3xl border-2 border-blue-800 hover:bg-white">
         View More
       </button>
+      </a>
     </div>
   </div>
 

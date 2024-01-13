@@ -19,6 +19,8 @@ Route::get('/', [LandingController::class, 'index'])->name('landing');
 
 Route::get('/about', [LandingController::class, 'about'])->name('about');
 
+Route::get('/testimonials', [LandingController::class, 'testimonial'])->name('testimonials');
+
 Route::get('/services', [LandingController::class, 'services'])->name('services');
 
 Route::get('/contact', [LandingController::class, 'contact'])->name('contact');
