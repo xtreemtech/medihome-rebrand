@@ -182,6 +182,5 @@
             </div>
         </div>
     </div> 
-    
 
 </x-landing-layout>

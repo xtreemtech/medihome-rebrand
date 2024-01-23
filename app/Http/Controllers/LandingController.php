@@ -25,4 +25,9 @@ class LandingController extends Controller
     {
         return view("pages.contact");
     }
+
+    public function mtn()
+    {
+        return view("pages.mtn");
+    }
 }

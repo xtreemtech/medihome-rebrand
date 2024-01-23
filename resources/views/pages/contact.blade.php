@@ -10,7 +10,7 @@
         </div>
         <div class="bg-grey-300 h-full w-full flex justify-center flex-col">
 
-        <h3 class="text-3xl text-center text-blue-800 mt-12"> Send Us a Message</h3>
+        <h3 class="text-3xl text-center text-sky-800 mt-12"> Send Us a Message</h3>
             <x-contact.form-component></x-contact.form-component>
         </div>
     </div>
