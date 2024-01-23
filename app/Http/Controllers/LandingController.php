@@ -11,6 +11,12 @@ class LandingController extends Controller
     {
         return view("welcome");
     }
+    
+    public function testimonial()
+    {
+        return view("pages.testimonial");
+    }
+
 
     public function about()
     {
