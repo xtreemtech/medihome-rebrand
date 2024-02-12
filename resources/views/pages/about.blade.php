@@ -63,39 +63,39 @@
     <p class="text-[18px] leading-[30px]">MEDIHOME is a licensed and certified home care Agency through Ministry Of Health and also Incorporated at corporate Affairs Commission here in Nigeria. Our organization is involved in providing home health, companionship & social care services to individuals in their places of residence either temporary or permanent settlements.
 Our in-Services are but not limited to :</p>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Care Companionship </span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Dementia Elderly Care</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Post-Operative care</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Nutrition planning</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Care Companionship </span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Dementia Elderly Care</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Post-Operative care</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Nutrition planning</span></div>
     </div>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-4">
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Home isolation service</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Medical Escort</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Laboratory Assistance</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Vital sign</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Home isolation service</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Medical Escort</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Laboratory Assistance</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Vital sign</span></div>
     </div>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-4">
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Wound care</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Rehydration Care</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ High Dependency Care</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Two carers attending</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Wound care</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Rehydration Care</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ High Dependency Care</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Two carers attending</span></div>
     </div>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-4">
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Hospital Discharge</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Learning Disability</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Medication Assistance</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Palliative & Hospice Care</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Hospital Discharge</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Learning Disability</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Medication Assistance</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Palliative & Hospice Care</span></div>
         
     </div>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-4">
-       <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Palliative & Hospice Care</span></div>
-       <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Personal Hygiene Care</span></div>
-       <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Physical Disability</span></div>
-       <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Medical Social Work</span></div>
+       <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Palliative & Hospice Care</span></div>
+       <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Personal Hygiene Care</span></div>
+       <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Physical Disability</span></div>
+       <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Medical Social Work</span></div>
     </div>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-4">
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Blood Transfusion & related services</span></div>
-        <div class="bg-white text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Respite cover</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Blood Transfusion & related services</span></div>
+        <div class="bg-white text-[15px] md:text-[20px] text-black p-2 rounded-lg text-center"><span>✓ Respite cover</span></div>
     </div>
 </div>
 
