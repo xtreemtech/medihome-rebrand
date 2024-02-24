@@ -1,5 +1,4 @@
 <x-landing-layout>
-
     <!-- <x-shortbanner title="About"> 
     </x-shortbanner> -->
     <div class="w-full h-36 bg-blue-600 text-center flex flex-col justify-center">
