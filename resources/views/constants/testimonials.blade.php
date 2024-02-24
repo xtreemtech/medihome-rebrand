@@ -1,5 +1,5 @@
   <!-- tesimonials STARTS HERE  -->
-  <div class="h-2/5 p-6 bg-[url(https://9mobile.com.ng/_next/static/media/data-sharing-bg-img.b234fb4d.svg)] bg-no-repeat bg-cover rounded-[40px] p-8 max-w-[1200px] w-[90%] mx-auto">
+  <div class="h-2/5 p-6 bg-no-repeat bg-cover rounded-[40px] p-8 max-w-[1200px] w-[90%] mx-auto"style="background-image: url('{{ asset('images/banner/dark-bg.svg') }}');" >
     <h3 class="text-5xl text-white text-center mb-8">Testimonials</h3>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
