@@ -23,7 +23,7 @@
       <p class="text-lg mt-6 text-gray-800">My mother was admitted into hospital, terminal case. After 37 days, the management told us to look elsewhere because of NARD Strike. A relative of another patient told us about MediHome, I called them & we quickly subscribed likewise. We adhered to their B & D packages and behold, they gave us all their packages without extra charges.The Consultant visited her times without number. The carer were polite in their duty, Nurses connected well with Doctor. My mother was perfectly okay within 4 months. Honestly, MediHome is another multispecialist hospital within our home. Best healthcare Innovation Services. Hail MHCS!!!!!</p>
     </div>
 
-    <div class="p-4 rounded-lg"">
+    <div class="p-4 rounded-lg">
       <h2 class="text-center text-gray-900 text-3xl font-medium relative after:absolute after:-bottom-2 after:left-[50%] after:h-[4px] after:w-[80px] after:-translate-x-[50%] after:bg-blue-600 after:content-['']">Awolu Yaya</h2>
       <p class="text-lg mt-6 text-gray-800">Wonderful service to Mum in her home. We found all carers and management team very supportive, listened to what we said, and particularly responsive and caring to Mum. I cannot recommend them highly enough.</p>
     </div>
