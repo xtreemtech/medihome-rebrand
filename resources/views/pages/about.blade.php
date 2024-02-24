@@ -2,8 +2,8 @@
 
     <!-- <x-shortbanner title="About"> 
     </x-shortbanner> -->
-    <div class="w-full h-36 bg-sky-200 text-center flex flex-col justify-center">
-      <h1 class="text-center text-gray-900 text-5xl">About</h1>
+    <div class="w-full h-36 bg-blue-600 text-center flex flex-col justify-center">
+      <h1 class="text-center text-white text-5xl">About</h1>
     </div> 
  <!-- rounded-t-[40px] -->
     <div class="w-full p-10 mt-6 bg-[url(https://9mobile.com.ng/_next/static/media/testimonialBackground.4bd99407.png)] bg-no-repeat bg-cover rounded-[40px] max-w-[1200px] w-[90%] mx-auto">
