@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +27,10 @@ Route::get('/services', [LandingController::class, 'services'])->name('services'
 Route::get('/contact', [LandingController::class, 'contact'])->name('contact');
 
 Route::get('/mtn', [LandingController::class, 'mtn'])->name('mtn');
+
+Route::post('/save_submission', [ContactController::class, 'save_submission'])->name('save_submission');
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

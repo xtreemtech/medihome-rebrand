@@ -1,9 +1,19 @@
-<form action="" class="my-3 mx-3" method="POST">
+
+@if(isset($error))
+    <span class="text-red-600 ring-red-600 bg-red-200">{{$error}}</span>
+@endif
+
+@if(isset($success))
+    <span class="text-green-600 ring-green-600 bg-green-200">{{$success}}</span>
+@endif
+
+
+<form action="{{route('save_submission')}}" class="my-3 mx-3" method="POST">
     @csrf
     <div class="grid lg:grid-cols-2 md:grids-cols-1 sm:grids-cols-1 grid-flow-row gap-3 my-6">
         <div>
             <x-input-label for="inputField" class="text-3xl" :value="'Enter your Full Name'"></x-input-label>
-            <x-text-input class="w-full" placeholder="Enter your Full name"></x-text-input>
+            <x-text-input class="w-full" name="fullname" placeholder="Enter your Full name"></x-text-input>
         </div>
         <div>
             <x-input-label for="inputField" class="text-3xl" :value="'Enter your Email Address'"></x-input-label>
@@ -14,7 +24,7 @@
     <div class="grid lg:grid-cols-1 md:grids-cols-1 sm:grids-cols-1 grid-flow-row gap-3 my-6">
         <div>
             <x-input-label for="message" class="text-3xl" :value="'Enter your Message'"></x-input-label>
-            <x-text-area class="w-full" name="message" placeholder="Enter your Message"></x-text-area>
+            <x-text-area class="w-full" name="body" placeholder="Enter your Message"></x-text-area>
         </div>
     </div>
 
@@ -30,7 +40,7 @@
 
 
         <div class="grid grid-flow-row grid-cols-1 justify-start my-6">
-            <x-text-input class="w-full" name="placeholder" placeholder="Enter your Solution" required></x-text-input>
+            <x-text-input class="w-full" name="placeholder" name="solution" placeholder="Enter your Solution" required></x-text-input>
         </div>
     </div>
 
