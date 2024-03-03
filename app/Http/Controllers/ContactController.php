@@ -27,6 +27,7 @@ class ContactController extends Controller
         $answer = $math_one + $math_two; 
 
         if(intval($answer) !== intval($solution)){
+            toastr()->error('Email could not be sent, Try again later');
             return back()->with(['error'=>"Sorry answer to equation is not correct"]);
         }
         

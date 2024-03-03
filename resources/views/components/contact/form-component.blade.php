@@ -1,10 +1,10 @@
 
-@if(isset($error))
-    <span class="text-red-600 ring-red-600 bg-red-200">{{$error}}</span>
+@if(session()->has('success'))
+    <span class="text-green-600 ring-green-600 bg-green-200">{{ session('success') }}</span>
 @endif
 
-@if(isset($success))
-    <span class="text-green-600 ring-green-600 bg-green-200">{{$success}}</span>
+@if(session()->has('error'))
+    <span class="text-red-600 ring-red-600 bg-red-200">{{ session('error') }}</span>
 @endif
 
 

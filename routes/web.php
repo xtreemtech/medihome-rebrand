@@ -3,6 +3,7 @@
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ErrorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,6 +31,13 @@ Route::get('/mtn', [LandingController::class, 'mtn'])->name('mtn');
 
 Route::post('/save_submission', [ContactController::class, 'save_submission'])->name('save_submission');
 
+// error pages 
+
+Route::get('/404', [ErrorController::class, 'notfoundpage'])->name('notfound_error');
+
+Route::get('/403', [ErrorController::class, 'unauthorisedpage'])->name('unauthorised_error');
+
+Route::get('/500', [ErrorController::class, 'servererrorpage'])->name('server_error');
 
 
 Route::get('/dashboard', function () {

@@ -36,4 +36,5 @@ class LandingController extends Controller
     {
         return view("pages.mtn");
     }
+    
 }
