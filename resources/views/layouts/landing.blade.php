@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>MedihomeCare Services </title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -27,7 +27,7 @@
 
     {{ $slot }}
 
-    @include("constants.footer")
+    <!-- @include("constants.footer") -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>

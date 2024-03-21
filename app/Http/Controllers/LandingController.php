@@ -11,6 +11,12 @@ class LandingController extends Controller
     {
         return view("welcome");
     }
+    
+    public function testimonial()
+    {
+        return view("pages.testimonial");
+    }
+
 
     public function about()
     {
@@ -25,4 +31,10 @@ class LandingController extends Controller
     {
         return view("pages.contact");
     }
+
+    public function mtn()
+    {
+        return view("pages.mtn");
+    }
+    
 }
